@@ -15,6 +15,7 @@ KEYWORDS="*"
 RDEPEND="
 	>=dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	dev-python/editables[${PYTHON_USEDEP}]
+	dev-python/importlib_metadata[${PYTHON_USEDEP}]
 	dev-python/pyproject-metadata[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/tomli-w[${PYTHON_USEDEP}]
@@ -22,6 +23,7 @@ RDEPEND="
 DEPEND="
 	>=dev-python/packaging-24.0[${PYTHON_USEDEP}]
 	dev-python/editables[${PYTHON_USEDEP}]
+	dev-python/importlib_metadata[${PYTHON_USEDEP}]
 	dev-python/pyproject-metadata[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/tomli-w[${PYTHON_USEDEP}]
