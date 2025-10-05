@@ -3,6 +3,8 @@
 
 EAPI=7
 PYTHON_COMPAT=( python3+ )
+ECARGO_BUNDLE_POSTFIX="mark-rust-bundle"
+CARGO_OPTIONAL="yes"
 inherit cargo distutils-r1
 
 DESCRIPTION="Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages"
