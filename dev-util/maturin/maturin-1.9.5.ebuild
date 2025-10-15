@@ -14,6 +14,8 @@ https://files.pythonhosted.org/packages/6c/0a/70972eb5d1aae3444905fe0875bcef9e6d
 mirror://macaroni/maturin-1.9.5-mark-rust-bundle.tar.xz -> maturin-1.9.5-mark-rust-bundle.tar.xz"
 SLOT="0"
 KEYWORDS="*"
+BDEPEND="virtual/rust
+"
 RDEPEND="
 	dev-python/tomli[${PYTHON_USEDEP}]
 "
