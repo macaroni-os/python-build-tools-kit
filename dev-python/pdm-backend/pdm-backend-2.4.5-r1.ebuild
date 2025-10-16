@@ -27,6 +27,7 @@ DEPEND="
 	dev-python/pyproject-metadata[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/tomli-w[${PYTHON_USEDEP}]
+	dev-python/zipp[${PYTHON_USEDEP}]
 "
 S="${WORKDIR}/pdm_backend-2.4.5"
 src_prepare() {
