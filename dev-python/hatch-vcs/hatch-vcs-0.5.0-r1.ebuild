@@ -17,6 +17,6 @@ RDEPEND="
 DEPEND="
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
 "
-S="${WORKDIR}/hatch-vcs-0.5.0"
+S="${WORKDIR}/hatch_vcs-0.5.0"
 
 # vim: filetype=ebuild
