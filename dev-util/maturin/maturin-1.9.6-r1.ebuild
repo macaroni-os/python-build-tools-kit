@@ -21,7 +21,7 @@ RDEPEND="
 	dev-python/tomli[${PYTHON_USEDEP}]
 "
 DEPEND="
-	dev-python/setuptools-rust[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-rust-1.11.1[${PYTHON_USEDEP}]
 "
 S="${WORKDIR}/maturin-1.9.6"
 src_unpack() {
