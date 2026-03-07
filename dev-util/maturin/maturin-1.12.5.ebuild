@@ -31,6 +31,8 @@ src_prepare() {
 	distutils-r1_src_prepare
 	# we build the Rust executable (just once) via cargo_src_compile
 	sed -i -e '/setuptools_rust/d' -e '/rust_extensions/d' setup.py || die
+	# Fix stupid project.classifiers errors!
+	sed -i -e '/GraalPy/d' pyproject.toml || die
 }
 src_configure() {
 	export OPENSSL_NO_VENDOR=1
